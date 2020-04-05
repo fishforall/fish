@@ -3,7 +3,7 @@ import React from 'react';
 const AddFish = () => {
     return (
         <>
-            Addfish
+            Addfish - ZALOGOWANY
         </>
     );
 }

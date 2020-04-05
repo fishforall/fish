@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { Redirect } from "react-router-dom";
+import Button from "@material-ui/core/Button"
 
 
 function Login(props) {
@@ -25,7 +26,7 @@ function Login(props) {
     else {
         return (
             <>
-                <button onClick={loginHandler}>Loguj</button>
+                <Button onClick={loginHandler} variant="contained" color="primary">Loguj</Button>
             </>
         )
     }
