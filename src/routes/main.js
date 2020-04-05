@@ -12,7 +12,7 @@ const Main = () => {
     console.log(fish);
     useEffect(() => {
         async function getFish() {
-            const result = await get("https://pixabay.com/api/?key=15902906-909858802fdd1e826fe8c3da8&q=fish&image_type=photo&pretty=true&per_page=4")
+            const result = await get("https://pixabay.com/api/?key=15902906-909858802fdd1e826fe8c3da8&q=fish&image_type=photo&pretty=true&per_page=6")
             setFish(result.hits)
         }
         getFish()
